@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement as Data Practice — ACTIC</title>
+    <meta name="description" content="Movement as Data Practice — a research project by Duc Bao Bui exploring motion capture systems and embodied interaction.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="project-page">
+  <header class="site-header">
+    <div class="site-header__logo">
+      <a href="index.html" class="site-header__logo-link">ACTIC</a>
+    </div>
+
+    <nav class="site-nav" aria-label="Main Navigation">
+      <ul class="site-nav__list">
+        <li><a href="index.html#work" class="site-nav__link">Work</a></li>
+        <li><a href="index.html#about" class="site-nav__link">About</a></li>
+        <li><a href="index.html#contact" class="site-nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="project-hero" aria-labelledby="project-title">
+      <div class="hero-container">
+        <h1 id="project-title" class="hero-title">Movement as Data Practice</h1>
+
+        <div class="hero-inner-card">
+          <p>
+            A research-through-design project exploring how motion capture systems shape movement.
+          </p>
+        </div>
+
+        <p class="hero-meta">
+          Duc Bao Bui | Digital Media | 2026
+        </p>
+      </div>
+
+      <figure class="project-hero__figure">
+        <div class="project-hero__media">
+          <div class="film-strip-container">
+            <img
+              src="img/work-01.png"
+              alt="Movement as Data Practice visual"
+              class="project-hero__image"
+            >
+          </div>
+        </div>
+
+        <figcaption class="project-meta">
+          <p class="project-meta__line">
+            Research-through-Design | 2026 | Embodied Interaction
+          </p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="project-section" aria-labelledby="approach-title">
+      <h2 id="approach-title" class="project-section__title">Approach</h2>
+
+      <div class="project-section__content project-section__content--split">
+        <div class="project-section__left">
+          <div class="project-card" id="approach-interactive-wrapper">
+            <div id="mini-interactive-core"></div>
+
+            <p class="body-text">
+              This project explores how motion capture systems do not simply record movement, but actively shape it.
+            </p>
+
+            <p class="body-text">
+              By comparing sensor-based and vision-based approaches, the work investigates how different systems influence the perception and expression of movement.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-section__right">
+          <ul class="project-facts">
+            <li>
+              <span class="project-facts__label">Focus</span>
+              <span class="project-facts__value">Motion Capture Systems</span>
+            </li>
+
+            <li>
+              <span class="project-facts__label">Methods</span>
+              <span class="project-facts__value">Research-through-Design</span>
+              <span class="project-facts__value">Comparative Analysis</span>
+            </li>
+
+            <li>
+              <span class="project-facts__label">Tools</span>
+              <span class="project-facts__value">Rokoko</span>
+              <span class="project-facts__value">MediaPipe</span>
+            </li>
+
+            <li>
+              <span class="project-facts__label">Output</span>
+              <span class="project-facts__value">Trajectory Visualizations</span>
+              <span class="project-facts__value">Movement Sequences</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section" aria-labelledby="process-title">
+      <h2 id="process-title" class="project-section__title">Process</h2>
+
+      <div class="project-gallery">
+        <figure class="project-gallery__item">
+          <img src="img/Process-01.jpg" alt="Process visualization 1" class="project-gallery__image">
+        </figure>
+
+        <figure class="project-gallery__item">
+          <img src="img/Process-02.png" alt="Process visualization 2" class="project-gallery__image">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="site-footer__info">
+      <p>Duc Bao Bui — <a href="mailto:bui@th-brandenburg.de">bui@th-brandenburg.de</a> — © 2026</p>
+    </div>
+  </footer>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+  <script type="module" src="js/heart.js"></script>
+    <script type="module" src="js/kinetic-object.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
